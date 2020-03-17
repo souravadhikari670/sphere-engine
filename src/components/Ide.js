@@ -1,9 +1,12 @@
 import React from 'react'
+import Menu from './Menu'
+import Projectcontainer from './Projectcontainer'
 
-const Ide = ()=> {
+const Ide = () => {
     return (
         <React.Fragment>
-            <h1>Ide</h1>
+         <Menu />
+         <Projectcontainer />
         </React.Fragment>
     )
 }

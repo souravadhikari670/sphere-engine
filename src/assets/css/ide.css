@@ -1,0 +1,23 @@
+body{
+    overflow-x: hidden;
+}
+#faIdeMenu{
+    color: #D4D4D4;
+}
+
+.fa:hover{
+    cursor: pointer;
+    color: #fff;
+}
+#btnMenu:hover{
+    cursor: pointer;
+    border: 1px solid #c1c1c1;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#secondMenu span i{
+    font-size: 18px;
+}
