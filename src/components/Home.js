@@ -190,7 +190,7 @@ const Home = () => {
                                         </span>
                                     </td>
                                     <td>
-                                        <small data-toggle="tooltip" data-placement="top" title="2020-03-17">
+                                        <small data-toggle="tooltip" data-placement="left" title="2020-03-17">
                                         2020-03-17
                                         </small>
                                     </td>

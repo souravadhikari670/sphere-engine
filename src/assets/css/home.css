@@ -39,7 +39,7 @@
     border-bottom-right-radius: 10px;
 }
 #project:hover{
-    background: #000;
+    background: rgb(12, 12, 12);
 }
 #divIcon{
     display: flex;
