@@ -1,0 +1,70 @@
+
+#homeBackground{
+    background-image: url('../image/home.PNG');
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#blurBackground{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(0, 0, 0, 0.8);
+    overflow-y: scroll;
+}
+
+#blurProject{
+    min-height: 100vh;
+    width: 80%;
+    background: rgba(31, 30, 30, 0.8);
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    margin-bottom: 3%;
+}
+#homeLogo{
+    height: 50px;
+    width: 250px;
+}
+
+#project{
+    height: 170px;
+    background: #111111;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#project:hover{
+    background: #000;
+}
+#divIcon{
+    display: flex;
+    justify-content: center;
+}
+#divIcon img{
+    height: 80px;
+    margin-top: 10px;
+}
+
+#titleProject{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+td a{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+td span{
+    font-size: 14px;
+    color: rgb(118, 119, 121);
+    font-weight: 600;
+}
