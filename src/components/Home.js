@@ -44,8 +44,8 @@ const Home = () => {
                         </div>
                     </nav>
                     <div className="container mt-5">
-                        <div className="row mb-4">
-                            <div className="col-md-3">
+                        <div className="row">
+                            <div className="col-md-3 mb-4">
                                 <a href="/workspace/1" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -55,7 +55,7 @@ const Home = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mb-4">
                                 <a href="/workspace/2" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -65,7 +65,7 @@ const Home = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mb-4">
                                 <a href="/workspace/3" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -75,7 +75,7 @@ const Home = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mb-4">
                                 <a href="/workspace/4" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -86,8 +86,8 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="row mb-4">
-                            <div className="col-md-3">
+                        <div className="row">
+                        <div className="col-md-3 mb-4">
                                 <a href="/workspace/5" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -97,7 +97,7 @@ const Home = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mb-4">
                                 <a href="/workspace/6" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -107,7 +107,7 @@ const Home = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mb-4">
                                 <a href="/workspace/7" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -117,7 +117,7 @@ const Home = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mb-4">
                                 <a href="/workspace/8" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -128,8 +128,8 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="row mb-5">
-                            <div className="col-md-3">
+                        <div className="row">
+                        <div className="col-md-3 mb-5">
                                 <a href="/workspace/9" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -139,7 +139,7 @@ const Home = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mb-5">
                                 <a href="/workspace/10" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -149,7 +149,7 @@ const Home = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mb-5">
                                 <a href="/workspace/11" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
@@ -159,7 +159,7 @@ const Home = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mb-5">
                                 <a href="/workspace/12" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
