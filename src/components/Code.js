@@ -17,22 +17,11 @@ const Code = () => {
                 <div className="row">
                     <div className="col-12" style={{ height: "35px", backgroundColor: "#252525" }}></div>
                     <div className="col-12">
-                        {/* <AceEditor
-                         width="100%" height="65vh" style={{fontSize:"18px"}}
-                        setOptions={{
-                            enableBasicAutocompletion: true,
-                            enableLiveAutocompletion: true,
-                            enableSnippets: true,
-                            showLineNumbers: true,
-                            tabSize: 2
-                        }}
-                         /> */}
                         <AceEditor
                             mode="javascript"
                             theme="monokai"
                             onChange={editorValue}
-                            // ref={instance => { this.ace = instance; }}
-                            style={{ height: '65vh', fontSize: "18px" }}// Let's put things into scope
+                            style={{ height: '65vh', fontSize: "18px" }}
                         />
                     </div>
                 </div>
