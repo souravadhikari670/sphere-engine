@@ -1,8 +1,10 @@
-import React from 'react'
+import React,{} from 'react'
 import '../assets/css/ide.css'
 import logo from '../assets/image/logo.png'
+import Withide from '../HOC/Withide'
 
-const Menu = () => {
+const Menu = (props) => {
+    console.log(props)
     return (
         <React.Fragment>
             <div className="container-fluid p-2" style={{ height: "45px", backgroundColor: "#3C3C3C" }}>
@@ -21,7 +23,8 @@ const Menu = () => {
                             </button>
                         </span>
                         <span data-toggle="tooltip" data-placement="bottom" title="Launch the website">
-                            <button className="btn btn-transparent btn-sm text-light" id="btnMenu">
+                            <button className="btn btn-transparent btn-sm text-light" id="btnMenu"
+                             onClick={() => props.context.openSideOutput()}>
                                 <i className="fa fa-play mr-1" id="faIdeMenu"></i>
                                 Run
                             </button>
@@ -58,26 +61,8 @@ const Menu = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid" style={{ height: "30px", backgroundColor: "#252525" }}>
-                <div className="row">
-                    <div className="col-2 mt-1 d-flex justify-content-end" id="secondMenu">
-                    <span data-toggle="tooltip" data-placement="bottom" title="Refresh">
-                        <i className="fa fa-refresh text-light mr-3"></i>
-                    </span>
-                    <span data-toggle="tooltip" data-placement="bottom" title="Save file">
-                        <i className="fa fa-save text-light mr-3"></i>
-                    </span>
-                    <span data-toggle="tooltip" data-placement="bottom" title="Save all files">
-                        <i className="fa fa-save text-light mr-3"> All</i>
-                    </span>
-                    <span data-toggle="tooltip" data-placement="bottom" title="Key bindings">
-                        <i className="fa fa-keyboard-o text-light"></i>
-                    </span>
-                    </div>
-                </div>
-            </div>
         </React.Fragment>
     )
 }
 
-export default Menu
+export default Withide(Menu)

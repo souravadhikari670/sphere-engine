@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 //all components
 import Home from '../components/Home'
 import Ide from '../components/Ide'
+import {Context} from '../context/Context'
 
 const Routes = () => {
     return (
@@ -12,8 +13,9 @@ const Routes = () => {
             <Switch>
 
                 <Route exact path={`/`} component={Home} />
-                <Route exact path={`/workspace/:code`} component={Ide} />
-
+                <Route exact path= {`/workspace/:code`} render={(props)=>{
+                return( <Context><Ide /></Context>)
+                }} />
             </Switch>
 
         </React.Fragment>

@@ -22,7 +22,7 @@ const Home = () => {
                 <div id="blurProject">
                     <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "transparent" }}>
                         <a className="navbar-brand" href="#">
-                            <img src={logo} id="homeLogo" className="d-inline-block align-top" alt="" />
+                            <img alt="" src={logo} id="homeLogo" className="d-inline-block align-top" alt="" />
                         </a>
                         <ul className="navbar-nav mr-auto">
                             {/* <li className="nav-item active">
@@ -49,7 +49,7 @@ const Home = () => {
                                 <a href="/workspace/1" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={angular} />
+                                            <img alt="" src={angular} />
                                         </div>
                                         <h3 id="titleProject">Node + Angular</h3>
                                     </div>
@@ -59,7 +59,7 @@ const Home = () => {
                                 <a href="/workspace/2" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={react} />
+                                            <img alt="" src={react} />
                                         </div>
                                         <h3 id="titleProject">Node + React</h3>
                                     </div>
@@ -69,7 +69,7 @@ const Home = () => {
                                 <a href="/workspace/3" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={cpp} />
+                                            <img alt="" src={cpp} />
                                         </div>
                                         <h3 id="titleProject">C++</h3>
                                     </div>
@@ -79,7 +79,7 @@ const Home = () => {
                                 <a href="/workspace/4" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={python} />
+                                            <img alt="" src={python} />
                                         </div>
                                         <h3 id="titleProject">Python + Django</h3>
                                     </div>
@@ -91,7 +91,7 @@ const Home = () => {
                                 <a href="/workspace/5" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={ruby} />
+                                            <img alt="" src={ruby} />
                                         </div>
                                         <h3 id="titleProject">Ruby on Rails</h3>
                                     </div>
@@ -101,7 +101,7 @@ const Home = () => {
                                 <a href="/workspace/6" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={scala} />
+                                            <img alt="" src={scala} />
                                         </div>
                                         <h3 id="titleProject">Scala</h3>
                                     </div>
@@ -111,7 +111,7 @@ const Home = () => {
                                 <a href="/workspace/7" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={r} />
+                                            <img alt="" src={r} />
                                         </div>
                                         <h3 id="titleProject">R</h3>
                                     </div>
@@ -121,7 +121,7 @@ const Home = () => {
                                 <a href="/workspace/8" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={php} />
+                                            <img alt="" src={php} />
                                         </div>
                                         <h3 id="titleProject">PHP + Laravel</h3>
                                     </div>
@@ -133,7 +133,7 @@ const Home = () => {
                                 <a href="/workspace/9" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={spring} />
+                                            <img alt="" src={spring} />
                                         </div>
                                         <h3 id="titleProject">Spring</h3>
                                     </div>
@@ -143,7 +143,7 @@ const Home = () => {
                                 <a href="/workspace/10" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={gradle} />
+                                            <img alt="" src={gradle} />
                                         </div>
                                         <h3 id="titleProject">Gradle + Kotlin</h3>
                                     </div>
@@ -153,7 +153,7 @@ const Home = () => {
                                 <a href="/workspace/11" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={tensorflow} />
+                                            <img alt="" src={tensorflow} />
                                         </div>
                                         <h3 id="titleProject">Tensorflow</h3>
                                     </div>
@@ -163,7 +163,7 @@ const Home = () => {
                                 <a href="/workspace/12" style={{ textDecoration: "none" }}>
                                     <div id="project">
                                         <div id="divIcon">
-                                            <img src={empty} />
+                                            <img alt="" src={empty} />
                                         </div>
                                         <h3 id="titleProject">Empty project</h3>
                                     </div>
@@ -172,7 +172,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="container-fluid">
-                        <table class="table table-dark">
+                        <table className="table table-dark">
                             <thead>
                                 <tr>
                                     <th scope="col">Project name</th>

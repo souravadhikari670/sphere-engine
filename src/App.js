@@ -3,9 +3,9 @@ import Routes from './routes/Routes'
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       <Routes />
-    </div>
+    </React.Fragment>
   );
 }
 

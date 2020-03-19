@@ -21,3 +21,28 @@ body{
 #secondMenu span i{
     font-size: 18px;
 }
+
+#conOutputIde{
+    border-top: 1px solid #fff;
+}
+
+#outputIde{
+    overflow: scroll;
+    border-top: 1px solid #fff;
+}
+
+#urlOutputIde{
+    height: 25px;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#outputMenu :hover{
+    cursor: pointer;
+}
