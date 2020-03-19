@@ -51,10 +51,10 @@ const Menu = (props) => {
                         <button className="btn btn-transparent btn-sm text-light mr-2" id="btnMenu">
                             Edit project
                             </button>
-                        <button className="btn btn-outline-primary btn-sm text-primary mr-2">
+                        <button className="btn btn-outline-primary btn-sm mr-2">
                             <i className="fa fa-envelope mr-1"></i>
                             Sign up for a newsletter
-                            </button><button className="btn btn-outline-danger btn-sm text-danger">
+                            </button><button className="btn btn-outline-danger btn-sm">
                             <i className="fa fa-bar-chart mr-1"></i>
                             Take thesurvey for 3 months free access
                             </button>
