@@ -11,7 +11,7 @@
     "jquery": "^3.4.1",
     "path": "^0.12.7",
     "react": "^16.13.0",
-    "react-ace": "^8.1.0",
+    "react-ace-editor": "0.0.3",
     "react-codemirror2": "^7.0.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
