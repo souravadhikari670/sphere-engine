@@ -4,7 +4,7 @@ import logo from '../assets/image/logo.png'
 import Withide from '../HOC/Withide'
 
 const Menu = (props) => {
-    console.log(props)
+
     return (
         <React.Fragment>
             <div className="container-fluid p-2" style={{ height: "45px", backgroundColor: "#3C3C3C" }}>
@@ -24,7 +24,7 @@ const Menu = (props) => {
                         </span>
                         <span data-toggle="tooltip" data-placement="bottom" title="Launch the website">
                             <button className="btn btn-transparent btn-sm text-light" id="btnMenu"
-                             onClick={() => props.context.openSideOutput()}>
+                             onClick={() => props.context.runCode()}>
                                 <i className="fa fa-play mr-1" id="faIdeMenu"></i>
                                 Run
                             </button>
@@ -42,7 +42,9 @@ const Menu = (props) => {
                             </button>
                         </span>
                         <span data-toggle="tooltip" data-placement="bottom" title="Show the internal browser">
-                            <button className="btn btn-transparent btn-sm text-light" id="btnMenu">
+                            <button className="btn btn-transparent btn-sm text-light toggleBrowser" id="btnMenu"
+                                onClick={()=> props.context.toggleBrowser()}
+                            >
                                 Show browser
                             </button>
                         </span>

@@ -17,7 +17,7 @@ const Projectcontainer = () => {
                             <div className="col-12" id="codeIde" style={{ height: "70vh", backgroundColor: "#1E1E1E" }}>
                                 <Code />
                             </div>
-                            <div className="col-4 border-left-light d-none" id="sideOutputIde" style={{ height: "70vh", backgroundColor: "#fff", overflowX:"scroll" }}>
+                            <div className="col-4 d-none" id="sideOutputIde" style={{ height: "70vh", backgroundColor: "#fff", overflowX:"scroll" }}>
                                 <SideOutput />
                             </div>
                             <div className="col-12" id="outputIde" style={{height:"24vh", backgroundColor:"#000"}}>

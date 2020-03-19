@@ -6,10 +6,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "codemirror": "^5.52.0",
     "fs": "0.0.1-security",
     "jquery": "^3.4.1",
     "path": "^0.12.7",
     "react": "^16.13.0",
+    "react-ace": "^8.1.0",
+    "react-codemirror2": "^7.0.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
